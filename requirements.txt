@@ -2,10 +2,12 @@
 Flask>=2.3.0
 Werkzeug>=2.3.0
 numpy>=1.24.0
+python-3.11
+tensorflow-cpu==2.13.0
 opencv-python-headless>=4.8.0  # Headless version for servers
-tensorflow>=2.13.0,<2.16.0  # Stable version for compatibility
 Pillow>=10.0.0  # Image processing
 gunicorn>=21.2.0  # Production server
 h5py>=3.9.0  # For model loading
 protobuf>=4.23.0  # Required by TensorFlow
 scikit-learn>=1.3.0  # If you use any preprocessing
+
